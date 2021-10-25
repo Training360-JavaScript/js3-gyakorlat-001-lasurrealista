@@ -1,3 +1,3 @@
-const removeDuplicatesFromArray = arr =>  [...new Set(arr)]
+const removeDuplicatesFromArray = arr =>  [...new set(arr)];
 
-export default removeDuplicatesFromArray
+export default removeDuplicatesFromArray;
