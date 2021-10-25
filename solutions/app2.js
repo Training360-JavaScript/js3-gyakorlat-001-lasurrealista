@@ -10,6 +10,6 @@ const HU = {
         const lastIndex = str.lastIndexOf(', ');
         return str.slice(0, lastIndex) + ' és ' + str.slice(lastIndex + 2);
     }
-}
+};
 
-export default HU
+export default HU;
