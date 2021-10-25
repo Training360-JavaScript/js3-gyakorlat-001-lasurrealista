@@ -3,7 +3,7 @@ const HU = {
         return Intl.DateTimeFormat('hu-HU').format(date)
     },
     curreny(number) {
-        return Intl.NumberFormat('hu-HU', { style: 'currency', currency: 'HUF' }).format(number)
+        return Intl.NumberFormat('en-EN', { style: 'currency', currency: 'EUR' }).format(number)
     },
     list(arr) {
         const str = arr.join(', ');
